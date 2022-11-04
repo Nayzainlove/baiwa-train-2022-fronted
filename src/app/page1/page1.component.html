@@ -1,0 +1,43 @@
+<div class="row_background">
+    
+        <div class="wrapper"><br>
+            <h1 class="htext co1 ">ข้อมูลสินค้า</h1>
+            <div class="row">
+                <div class="col "style="padding: 50px;">
+                    <div class="boxtable ">
+                        <table class="table table-hover table-dark ">
+                            <thead style="padding: 50px;">
+                                <tr class="text ">
+                                    <th scope="col">ลำดับ</th>
+                                    <th scope="col">ยี่ห้อ </th>
+                                    <th scope="col">ประเภท</th>
+                                    <th scope="col">รสชาติ</th>
+                                    <th scope="col">ปริมาณ</th>
+                                    <th scope="col">ราคา</th>
+                                    <th scope="col">รายละเอียด</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let data of this.list;let i = index">
+                                    <th scope="row">{{i+1}}</th>
+                                    <td>{{data.name}}</td>
+                                    <td>{{data.type}}</td>
+                                    <td>{{data.taste}}</td>
+                                    <td>{{data.amount}}</td>
+                                    <td>{{data.price}}</td>
+                                    <td><button type="button" class="btn btn-warning">เเก้ไข</button> 
+                                        <button type="button" class="btn btn-danger" (click)="delete(i)">ลบข้อมูล</button>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="button" routerLink="/add_product">เพิ่มข้อมูลสินค้า</button>
+        <button class="button1" routerLink="">กลับสู่หน้าเเรก</button>
+   
+</div>

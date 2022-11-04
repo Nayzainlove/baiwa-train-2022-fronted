@@ -1,0 +1,134 @@
+.row_background{
+    
+position: relative;
+width: 1920px;
+height: 929px;
+
+background: #5E1919;
+}
+
+.background{
+position: absolute;
+width: 1920px;
+height: 800px;
+left: 0px;
+top: -12px;
+
+background: #E8C5C5;
+}
+.img_p{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 750px;
+    top: 40px;
+    border-radius: 1000px;
+}
+.fron{
+
+width: 400px;
+left: 701px;
+top: 591px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+
+
+color: #000000;
+}
+.line {
+
+width: 327px;
+
+left: 701px;
+top: 678px;
+
+border: 5px solid #000000;
+transform: rotate(0.18deg);
+  }
+
+.fron1{
+
+    width: 122px;
+    height: 24px;
+    left: 819px;
+    top: 700px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+  }
+  .fron2{
+    left: 819px;
+    top: 700px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+  }
+  .fron3{
+
+    left: 819px;
+    top: 700px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+  }
+  .fron4{
+
+    left: 819px;
+    top: 700px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+  }
+
+.button{
+    
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #000000;
+        background-color: #ee7373;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #E8C5C5;
+        width: 346px;
+        
+        position: absolute;
+        width: 346px;
+        left: 750px;
+        top: 825px;
+}
+.button:hover {background-color: #E8C5C5}
+
+.button:active {
+  background-color: #E8C5C5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}

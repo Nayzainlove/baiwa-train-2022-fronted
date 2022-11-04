@@ -1,0 +1,31 @@
+<div class="row_background">
+   <button class="button" routerLink="/product">กลับหน้าสินค้า</button>
+    <div class="background">
+        
+        <div class="col-9" style="padding-top: 10px;">
+
+            <label align="center">ชื่อ : </label>
+            <input type="text" placeholder="ชื่อ" class="form-control" [(ngModel)]="form.name">
+            <label>อายุ : </label>
+            <input type="text" name="city" placeholder="อายุ" class="form-control" [(ngModel)]="form.age"><br>
+          
+
+            <button align="center" type="button" class="btn btn-primary" (click)="save()">เพิ่มข้อมูล</button>
+
+            <div class="mt-3 alert alert-danger" role="alert" style=" justify-content: space-between; display:flex"
+                *ngFor="let item of ListData;let i = index">
+
+                <h5 align="center">ลำดับที่ : {{i+1}} ชื่อ : {{item.name}} อายุ : {{item.age}}</h5>
+
+                <div>
+                    <button type="button" class="btn btn-danger" (click)="deleteInfo(i)">ลบ</button><br><br>
+                    <button type="button" class="btn btn-primary">เเก้ไข</button>
+                    <button type="button" class="btn btn-primary">เพิ่มข้อมูล</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<div>

@@ -1,0 +1,46 @@
+.row_background{
+    
+    position: relative;
+    width: 1920px;
+    height: 929px;
+    
+    background: #5E1919;
+    }
+    .background{
+        position: absolute;
+        width: 1800px;
+        height: 750px;
+        left: 75px;
+        top: 100px;
+        
+        background: #E8C5C5;
+        }
+        .button{
+    
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #000000;
+            background-color: #ee7373;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #E8C5C5;
+            width: 346px;
+            
+            position: absolute;
+            width: 300px;
+            left: 75px;
+            top: 20px;
+    }
+    
+    .button:hover {background-color: #E8C5C5}
+    
+    .button:active {
+      background-color: #E8C5C5;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }

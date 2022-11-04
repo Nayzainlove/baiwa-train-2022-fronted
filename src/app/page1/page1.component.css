@@ -1,0 +1,93 @@
+.row_background{
+  
+    width: 1920px;
+    height: 929px;
+    
+    background: #5E1919;
+    }
+    .co1{
+        text-align: center;
+       
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        
+        
+        color: #f7f7f7;
+        }
+    .background1{
+   
+        left: 17px;
+        top: 0px;
+        
+        background: #E8C5C5;
+    }
+
+
+.boxtable{
+    left: 17px;
+    top: 0px;
+    
+    background: #000000;
+
+}
+    .button{
+    
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #000000;
+        background-color: #ee7373;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #E8C5C5;
+        width: 346px;
+        
+        position: absolute;
+        width: 300px;
+        left: 1585px;
+        top: 20px;
+}
+
+.button:hover {background-color: #E8C5C5}
+
+.button:active {
+  background-color: #E8C5C5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button1{
+    
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #ee7373;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #E8C5C5;
+    width: 346px;
+    
+    position: absolute;
+    width: 300px;
+    left: 35px;
+    top: 20px;
+}
+
+.button:hover {background-color: #E8C5C5}
+
+.button:active {
+background-color: #E8C5C5;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
