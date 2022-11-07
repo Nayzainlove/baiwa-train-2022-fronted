@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { Page2Component } from './page2/page2.component';
 import { Page1Component } from './page1/page1.component';
 import { Page3Component } from './page3/page3.component';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import { Page3Component } from './page3/page3.component';
     ReactiveFormsModule,
     FormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

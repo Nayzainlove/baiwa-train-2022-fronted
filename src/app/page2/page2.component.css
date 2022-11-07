@@ -1,12 +1,12 @@
-.row_background{
+/* .row_background{
     
     position: relative;
     width: 1920px;
     height: 929px;
     
     background: #5E1919;
-    }
-    .background{
+    } */
+    /* .background{
         position: absolute;
         width: 1800px;
         height: 750px;
@@ -14,7 +14,7 @@
         top: 100px;
         
         background: #E8C5C5;
-        }
+        } */
         .button{
     
             display: inline-block;

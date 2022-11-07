@@ -3,10 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 
 export interface MyData {
   name: string;
-  // brand:string;
   age: number;
-  // type:string;
-  // taste:string;
+  type:string;
+  taste:string;
+  amount:number;
+  money:number;
 
 }
 
@@ -21,9 +22,10 @@ export class Page2Component implements OnInit {
   form: MyData = {
     name : '',
     age: 0,
-    // brand: '',
-    // type:'',
-
+    amount:0,
+    type:'',
+    money:0,
+    taste:'',
   }
 
   ListData: MyData[] = [];
@@ -43,15 +45,15 @@ export class Page2Component implements OnInit {
   }
 
   save() {
-    if (this.form.name.trim() == '' || this.form.age == 0)
+    if (this.form.name.trim() == '' || this.form.type.trim() == '' || this.form.money == 0 || this.form.amount == 0 || this.form.age == 0 || this.form.taste.trim() == '')
       return;
     else
       this.ListData.push({
-        name: this.form.name, age: this.form.age
+        name: this.form.name, age: this.form.age,type: this.form.type,money: this.form.money,amount: this.form.amount,taste: this.form.taste
 
       })
 
-    this.form.name = '', this.form.age = 0
+    this.form.name = '', this.form.age = 0,this.form.money = 0,this.form.type ='',this.form.amount= 0,this.form.taste
   }
 
   deleteInfo(i: number) {
